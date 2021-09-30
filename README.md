@@ -58,4 +58,5 @@ Use the alias to run a command
 devit composer install
 ```
 
+#### You can make any changes to dockerfile, to install other versions, or install anything else    
 
