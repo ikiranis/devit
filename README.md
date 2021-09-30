@@ -19,7 +19,7 @@ Contains
 docker build . -t devit:1.0
 ```
 
-- Go to your project folder and run any command you want after the:
+- Go to your project folder and run any command you want, after the:
 
 ```
 docker run --rm --init -t -v $(pwd):/www -w /www -p 8000:8000 devit:1.0
@@ -43,7 +43,7 @@ nano ~/.bashrc
 Add the alias
 
 ```
-alias devit=docker run --rm --init -t -v $(pwd):/www -w /www -p 8000:8000 devit:1.0
+alias devit="docker run --rm --init -t -v $(pwd):/www -w /www -p 8000:8000 devit:1.0"
 ```
 
 Run to reload bashrc
